@@ -325,3 +325,22 @@ header {
 .feedback-content p span {
     color: #e9a209;
 }
+
+/*---------- FOOTER ----------*/
+
+footer {
+    background-color: #ffe8b4;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6% 24px 6%;
+    align-items: center;
+}
+
+#copyright {
+    color: #1d1d1d;
+    font-weight: 600;
+}
+

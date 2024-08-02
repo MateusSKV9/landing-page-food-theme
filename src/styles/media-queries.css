@@ -90,6 +90,11 @@
     .feedback {
         flex-direction: column;
     }
+
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width: 450px) {
