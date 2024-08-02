@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/media-queries.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class='bx bxs-pizza' id="nav-logo">Food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button type="button" class="btn-default">Peça aqui</button>
+
+            <button type="button" id="mobile_btn">
+                <i id="mobile_icon" class='bx bx-menu' ></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button type="button" class="btn-default">Peça aqui</button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">O sabor vai até você</h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum qui tempora necessitatibus, impedit excepturi, quis autem aspernatur assumenda temporibus corrupti explicabo libero tempore quidem ullam debitis mollitia error cupiditate totam?
+                </p>
+
+                <div class="cta_buttons">
+                    <a href="" class="btn-default">Ver cardápio</a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button type="button" class="btn-default">
+                            <i class='bx bxs-phone' ></i>
+                            (51) 92342-3243
+                        </button>
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href=""><i class='bx bxl-whatsapp'></i></a>
+                    <a href=""><i class='bx bxl-instagram' ></i></a>
+                    <a href=""><i class='bx bxl-facebook' ></i></a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

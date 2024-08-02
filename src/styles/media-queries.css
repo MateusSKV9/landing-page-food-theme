@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px) {
+    #nav_list, #navbar .btn-default {
+        display: none;
+    }
+    
+    #mobile_btn {
+        display: flex;
+        border: none;
+        background-color: transparent;
+        font-size: 1.8em;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+        margin: 12px 0px;
+    }
+}
