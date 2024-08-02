@@ -28,7 +28,6 @@
 
     #home {
         min-height: 100%;
-        padding-top: 250px;
     }
 
     #banner, #banner img, #home .shape {
@@ -46,8 +45,18 @@
         justify-content: center;
     }
 
-    .dishe {
-        width: calc(50%-12px);
+    .dish {
+        width: calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dish {
+        width: 100%;
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
     }
 }
 
