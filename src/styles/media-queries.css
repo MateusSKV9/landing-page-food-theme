@@ -101,7 +101,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
     #phone_button {
         display: none;
     }
@@ -118,10 +118,10 @@
     }
 
     #testimonials {
-        margin-top: 160px;
+        margin-top: 260px;
     }
 
     footer {
-        margin-top: 200px;
+        margin-top: 300px;
     }
 }
