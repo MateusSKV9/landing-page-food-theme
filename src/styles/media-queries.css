@@ -108,12 +108,13 @@
 
     #home {
         height: 100vh;
+        margin-top: 100px;
         margin-bottom: 0;
         padding-bottom: 0;
     }
 
     #menu {
-        margin-top: 0;
+        margin-top: 120px;
         padding-top: 0;
     }
 
