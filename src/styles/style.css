@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-primary-1);
 }
@@ -47,6 +51,10 @@ body {
 
 section {
   padding: 28px 8%;
+}
+
+#start {
+    visibility: hidden;
 }
 
 /*---------- HEADER ----------*/
@@ -88,7 +96,7 @@ header {
 
 .nav-item a {
   text-decoration: none;
-  color: var(--color-neutral-9);ad;
+  color: var(--color-neutral-9);
   font-weight: 600;
 }
 
@@ -106,13 +114,14 @@ header {
 }
 
 /*---------- HOME ----------*/
+
 #home {
   display: flex;
   min-height: calc(100vh - 960px);
 }
 
 #cta {
-  width: 30%;
+  width: 42%;
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -121,7 +130,7 @@ header {
 
 #cta .title {
   font-size: 3.5em;
-  color: var(--color-neutral-9);;
+  color: var(--color-neutral-9);
 }
 
 #cta .title span {
@@ -228,6 +237,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding-top: 50px;
 }
 
 #dishes {
@@ -287,8 +297,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh-96px);
+  height: 100vh;
   gap: 48px;
+  padding-top: 50px;
 }
 
 #testimonial_chef {

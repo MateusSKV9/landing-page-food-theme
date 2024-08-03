@@ -62,7 +62,7 @@
         font-size: 2.4em;
     }
 
-    #testimonials-content {
+    #testimonials_content {
         width: 70%;
         display: flex;
         flex-direction: column;
@@ -91,6 +91,10 @@
         flex-direction: column;
     }
 
+    footer {
+        margin-top: 100px;
+    }
+
     #footer_items {
         flex-direction: column;
         gap: 20px;
@@ -100,5 +104,24 @@
 @media screen and (max-width: 450px) {
     #phone_button {
         display: none;
+    }
+
+    #home {
+        height: 100vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #menu {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #testimonials {
+        margin-top: 160px;
+    }
+
+    footer {
+        margin-top: 200px;
     }
 }
