@@ -1,3 +1,5 @@
+// MENU MOBILE
+
 function toggleMode() {
   const mobile_menu = document.getElementById("mobile_menu");
 
@@ -5,6 +7,8 @@ function toggleMode() {
 }
 const btnMenu = document.getElementById("mobile_btn");
 btnMenu.addEventListener("click", toggleMode);
+
+// SCROLL ANIMATIONS
 
 function animarScroll() {
   const sections = document.querySelectorAll("section");

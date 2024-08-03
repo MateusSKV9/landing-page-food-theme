@@ -107,6 +107,16 @@ header {
 
 #mobile_btn {
   display: none;
+  transition: transform 0.3s ease;
+}
+
+#mobile_btn:hover {
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.355);
+}
+
+#mobile_btn:active {
+  transform: translate(4px, 4px);
 }
 
 #mobile_menu {
