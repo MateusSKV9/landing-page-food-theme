@@ -277,6 +277,10 @@ header {
   overflow: hidden;
 }
 
+.dish img {
+  height: 230px;
+}
+
 .dish-heart {
   position: absolute;
   background-color: var(--color-primary-6);
