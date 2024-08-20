@@ -42,6 +42,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: transform 0.15s ease;
+  will-change: transform;
 }
 
 .btn-default:hover {
